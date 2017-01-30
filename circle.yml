@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 6.9.4
+dependencies:
+  pre:
+    - npm install -g grunt
+test:
+  override:
+    - grunt mochaTest
